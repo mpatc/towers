@@ -1,0 +1,92 @@
+.column {
+    display: inline-block;
+    width:auto
+}
+
+.column li {
+    display: inline-block;
+    width:auto;
+    height:20px;
+    padding:10px;
+    margin:5px;
+    text-align: center;
+    background-color: darkblue;
+    color:white;
+}
+
+.column.list-2 li {
+    background-color: darkred;
+}
+
+.column li.selected {
+    background-color: yellow;
+}
+.ourRing {
+  width: : 100%;
+}
+.large {
+  width: 100%;
+  background-color: purple
+}
+
+.wrapper {
+  margin-left: 40px;
+  padding: 100px;
+
+}
+
+h2 {
+  font: 1.8em/1 Georgia, "Times New Roman", Times, serif;
+  font-weight: 100;
+  font-style: italic;
+  color: #4ea5cd;
+}
+
+.drop {
+  height: 200px;
+  width: 210px;
+  float: left;
+  position: relative;
+  margin-right: 40px;
+
+  border: 1px solid;
+  border-color: #4ea5cd;
+}
+
+.drag {
+  height: 25px;
+  border-radius: 10px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.disk1 {
+  background-color: #4a8bf4;
+  width:200px;
+}
+
+.disk2 {
+  background-color: #00CC33;
+  width:160px;
+}
+
+.disk3 {
+  background-color: #E60000;
+  width:120px;
+}
+
+.content{
+  width: 210px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.bar {
+    width : 20px;
+    height: 150px;
+    background-color: #787878;
+    margin: 0 94px;
+    position: absolute;
+    bottom : 0px;
+    z-index: -999999;
+}
