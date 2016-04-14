@@ -90,3 +90,6 @@ h2 {
     bottom : 0px;
     z-index: -999999;
 }
+.selected {
+  background-color: skyblue
+}
